@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2E579581E52E9D700A0B053 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E579571E52E9D700A0B053 /* main.m */; };
+		D2E5795B1E52E9D700A0B053 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5795A1E52E9D700A0B053 /* AppDelegate.m */; };
+		D2E5795D1E52E9D700A0B053 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D2E5795C1E52E9D700A0B053 /* GameScene.sks */; };
+		D2E5795F1E52E9D700A0B053 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D2E5795E1E52E9D700A0B053 /* Actions.sks */; };
+		D2E579621E52E9D700A0B053 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E579611E52E9D700A0B053 /* GameScene.m */; };
+		D2E579651E52E9D700A0B053 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E579641E52E9D700A0B053 /* GameViewController.m */; };
+		D2E579681E52E9D700A0B053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E579661E52E9D700A0B053 /* Main.storyboard */; };
+		D2E5796A1E52E9D700A0B053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E579691E52E9D700A0B053 /* Assets.xcassets */; };
+		D2E5796D1E52E9D700A0B053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E5796B1E52E9D700A0B053 /* LaunchScreen.storyboard */; };
+		D2E579781E52E9F700A0B053 /* Goblin_Idle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D2E579741E52E9F700A0B053 /* Goblin_Idle.atlas */; };
+		D2E579791E52E9F700A0B053 /* Goblin_Walk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D2E579751E52E9F700A0B053 /* Goblin_Walk.atlas */; };
+		D2E5797A1E52E9F700A0B053 /* HSKJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E579771E52E9F700A0B053 /* HSKJoystick.m */; };
+		D2E579801E52EA5200A0B053 /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5797F1E52EA5200A0B053 /* Monster.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2E579531E52E9D700A0B053 /* CrazyLegend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyLegend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E579571E52E9D700A0B053 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2E579591E52E9D700A0B053 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2E5795A1E52E9D700A0B053 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2E5795C1E52E9D700A0B053 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D2E5795E1E52E9D700A0B053 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D2E579601E52E9D700A0B053 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		D2E579611E52E9D700A0B053 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		D2E579631E52E9D700A0B053 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D2E579641E52E9D700A0B053 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D2E579671E52E9D700A0B053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2E579691E52E9D700A0B053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2E5796C1E52E9D700A0B053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2E5796E1E52E9D700A0B053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E579741E52E9F700A0B053 /* Goblin_Idle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Goblin_Idle.atlas; sourceTree = "<group>"; };
+		D2E579751E52E9F700A0B053 /* Goblin_Walk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Goblin_Walk.atlas; sourceTree = "<group>"; };
+		D2E579761E52E9F700A0B053 /* HSKJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSKJoystick.h; sourceTree = "<group>"; };
+		D2E579771E52E9F700A0B053 /* HSKJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSKJoystick.m; sourceTree = "<group>"; };
+		D2E5797E1E52EA5200A0B053 /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		D2E5797F1E52EA5200A0B053 /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monster.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2E579501E52E9D700A0B053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2E5794A1E52E9D600A0B053 = {
+			isa = PBXGroup;
+			children = (
+				D2E579551E52E9D700A0B053 /* CrazyLegend */,
+				D2E579541E52E9D700A0B053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2E579541E52E9D700A0B053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2E579531E52E9D700A0B053 /* CrazyLegend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2E579551E52E9D700A0B053 /* CrazyLegend */ = {
+			isa = PBXGroup;
+			children = (
+				D2E579741E52E9F700A0B053 /* Goblin_Idle.atlas */,
+				D2E579751E52E9F700A0B053 /* Goblin_Walk.atlas */,
+				D2E579761E52E9F700A0B053 /* HSKJoystick.h */,
+				D2E579771E52E9F700A0B053 /* HSKJoystick.m */,
+				D2E5797E1E52EA5200A0B053 /* Monster.h */,
+				D2E5797F1E52EA5200A0B053 /* Monster.m */,
+				D2E579591E52E9D700A0B053 /* AppDelegate.h */,
+				D2E5795A1E52E9D700A0B053 /* AppDelegate.m */,
+				D2E5795C1E52E9D700A0B053 /* GameScene.sks */,
+				D2E5795E1E52E9D700A0B053 /* Actions.sks */,
+				D2E579601E52E9D700A0B053 /* GameScene.h */,
+				D2E579611E52E9D700A0B053 /* GameScene.m */,
+				D2E579631E52E9D700A0B053 /* GameViewController.h */,
+				D2E579641E52E9D700A0B053 /* GameViewController.m */,
+				D2E579661E52E9D700A0B053 /* Main.storyboard */,
+				D2E579691E52E9D700A0B053 /* Assets.xcassets */,
+				D2E5796B1E52E9D700A0B053 /* LaunchScreen.storyboard */,
+				D2E5796E1E52E9D700A0B053 /* Info.plist */,
+				D2E579561E52E9D700A0B053 /* Supporting Files */,
+			);
+			path = CrazyLegend;
+			sourceTree = "<group>";
+		};
+		D2E579561E52E9D700A0B053 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2E579571E52E9D700A0B053 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2E579521E52E9D700A0B053 /* CrazyLegend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E579711E52E9D700A0B053 /* Build configuration list for PBXNativeTarget "CrazyLegend" */;
+			buildPhases = (
+				D2E5794F1E52E9D700A0B053 /* Sources */,
+				D2E579501E52E9D700A0B053 /* Frameworks */,
+				D2E579511E52E9D700A0B053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyLegend;
+			productName = CrazyLegend;
+			productReference = D2E579531E52E9D700A0B053 /* CrazyLegend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2E5794B1E52E9D600A0B053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zhouqiao;
+				TargetAttributes = {
+					D2E579521E52E9D700A0B053 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2E5794E1E52E9D600A0B053 /* Build configuration list for PBXProject "CrazyLegend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2E5794A1E52E9D600A0B053;
+			productRefGroup = D2E579541E52E9D700A0B053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2E579521E52E9D700A0B053 /* CrazyLegend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2E579511E52E9D700A0B053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E579781E52E9F700A0B053 /* Goblin_Idle.atlas in Resources */,
+				D2E579791E52E9F700A0B053 /* Goblin_Walk.atlas in Resources */,
+				D2E579681E52E9D700A0B053 /* Main.storyboard in Resources */,
+				D2E5795D1E52E9D700A0B053 /* GameScene.sks in Resources */,
+				D2E5796A1E52E9D700A0B053 /* Assets.xcassets in Resources */,
+				D2E5796D1E52E9D700A0B053 /* LaunchScreen.storyboard in Resources */,
+				D2E5795F1E52E9D700A0B053 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2E5794F1E52E9D700A0B053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E579651E52E9D700A0B053 /* GameViewController.m in Sources */,
+				D2E5795B1E52E9D700A0B053 /* AppDelegate.m in Sources */,
+				D2E579621E52E9D700A0B053 /* GameScene.m in Sources */,
+				D2E579801E52EA5200A0B053 /* Monster.m in Sources */,
+				D2E579581E52E9D700A0B053 /* main.m in Sources */,
+				D2E5797A1E52E9F700A0B053 /* HSKJoystick.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2E579661E52E9D700A0B053 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E579671E52E9D700A0B053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2E5796B1E52E9D700A0B053 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E5796C1E52E9D700A0B053 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2E5796F1E52E9D700A0B053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2E579701E52E9D700A0B053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2E579721E52E9D700A0B053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrazyLegend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qkl.CrazyLegend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2E579731E52E9D700A0B053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrazyLegend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qkl.CrazyLegend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2E5794E1E52E9D600A0B053 /* Build configuration list for PBXProject "CrazyLegend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E5796F1E52E9D700A0B053 /* Debug */,
+				D2E579701E52E9D700A0B053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E579711E52E9D700A0B053 /* Build configuration list for PBXNativeTarget "CrazyLegend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E579721E52E9D700A0B053 /* Debug */,
+				D2E579731E52E9D700A0B053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2E5794B1E52E9D600A0B053 /* Project object */;
+}
